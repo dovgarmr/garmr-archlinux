@@ -46,7 +46,7 @@ Hearing are welcome. Just don't speak with your mouth. 😜
 ## Hardware Minimum Suggestion (vs Garmr's Hardware)
 + CPU: x86_64
 + CPU: 6/12 (8/16)
-+ RAM: 32GB (64GB)
++ RAM: 32GB
 + GPU: 16GB (24GB)
 + SSD: 2TB (2x 4TB)
 
