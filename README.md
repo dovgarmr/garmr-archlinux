@@ -1,4 +1,4 @@
-# go-archlinux
+# garmr-archlinux
 
 ## Time To Abandon Microsoft's Operating System
 ### Reasons
@@ -20,8 +20,8 @@
 + Generally secure
 + Customisable
 <br><br>
-## GO Arch Linux!<br>
-$\color{green}{Gaming}$ and/or $\color{green}{Office}$ on Arch Linux with the help from a skilled Deaf man with long viking beard, Antero Wolf-Walker. Each hand flat "O" handshape, both indexes and pinkies extended that looks like wolf heads facing down and move them as if they were feet in the process of walking. WOOF, you just learned his sign name!
+## Garmr Arch Linux!<br>
+Garmr Arch Linux with the help from a skilled Deaf man with long viking beard, Antero Wolf-Walker. Each hand flat "O" handshape, both indexes and pinkies extended that looks like wolf heads facing down and move them as if they were feet in the process of walking. You just learned his sign name, WOOF!
 <br>
 ![AWW in the Valleys](https://github.com/user-attachments/assets/0cbe1225-fd3e-4d86-850b-d1f48f8b1588)
 <br><br>
@@ -32,9 +32,9 @@ Hearing are welcome. Just don't speak with your mouth. 😜
 ### Desktop Environment:
 [KDE Plasma](https://kde.org/plasma-desktop/)<br><br>
 ### Software Example:
-[ClamAV](https://www.clamav.net), [Discord](https://discord.com), [Firewalld](https://firewalld.org), [GIMP](https://www.gimp.org), [ISO Image Writer](https://apps.kde.org/isoimagewriter), [Kalm](https://apps.kde.org/kalm), [LibreOffice](https://www.libreoffice.org/discover/screenshots), [Live Captions](https://github.com/abb128/LiveCaptions), [Proton Mail](https://proton.me/mail), [*Steam](https://store.steampowered.com/about), [Strawberry](https://www.strawberrymusicplayer.org), [Timeshift](https://github.com/linuxmint/timeshift), [VLC](https://www.videolan.org/vlc), [Yazi](https://github.com/sxyazi/yazi), [Zen Browser](https://zen-browser.app)
+[ClamAV](https://www.clamav.net), [Discord](https://discord.com), [Firewalld](https://firewalld.org), [Flameshot](https://flameshot.org), [Fresh](https://sinelaw.github.io/fresh),[GIMP](https://www.gimp.org), [][ISO Image Writer](https://apps.kde.org/isoimagewriter), [Kalm](https://apps.kde.org/kalm), [Mullvad Browser](https://mullvad.net/browser), [LibreOffice](https://www.libreoffice.org/discover/screenshots), [Live Captions](https://github.com/abb128/LiveCaptions), [OnionShare](https://onionshare.org), [Proton Mail](https://proton.me/mail), [Qalculate](https://qalculate.github.io/), [*Steam](https://store.steampowered.com/about), [Strawberry](https://www.strawberrymusicplayer.org), [Timeshift](https://github.com/linuxmint/timeshift), [Tor Browser](https://www.torproject.org), [VLC](https://www.videolan.org/vlc), [Yazi](https://github.com/sxyazi/yazi), [Zen Browser](https://zen-browser.app)
 <br><br>
-*Some games do not support on Linux. Moreover, if you only have IGPU (Integrated Graphics Processing Unit) such as [APU](https://en.wikipedia.org/wiki/AMD_APU) or [IGT](https://en.wikipedia.org/wiki/Intel_Graphics_Technology), check [ProtonDB](https://www.protondb.com) for Game on Linux compability including "Steam Deck" which is based on APU (in theory should work on IGT too) for your laptop or PC.
+*Some games do not support on Linux. Moreover, if you only have IGPU (Integrated Graphics Processing Unit) such as [APU](https://en.wikipedia.org/wiki/AMD_APU) or [IGT](https://en.wikipedia.org/wiki/Intel_Graphics_Technology), check [ProtonDB](https://www.protondb.com) for Game on Linux compability including "Steam Deck" which is based on APU (in theory should work on IGT too) for your laptop, mini PC or PC tower.
 <br><br>
 ## Avoid At All Costs
 + ### $\textsf{\color{#ea4335}{AppImage - Storage Usage, Update Challenges, Compatibility Issues}}$
@@ -75,10 +75,10 @@ What needs are:
 + One External HDD (Hard Disk Drive), External SSD (Solid-State Drive) or Flash Drive for backup. These suggestions have longer life compare to Internal HDD or SSD.
 
 ## Priceless Warning - A Friendly Reminder
-<p>If you haven't backed up your documents, downloads, photos, videos. Perhaps fonts and wallpapers. Browser's bookmark export. Anything else not mentioned?</p>
+<p>If you haven't backed up your documents, downloads, photos, videos. Perhaps fonts, plugins and wallpapers. Browser's bookmark export. Anything else not mentioned?</p>
 <p>Use external HDD, SSD or another Flash Drive... make sure you have enough space to store all of that. Usually default format is fat32 which is fine for now.</p>
 <p>As a rule of thumb for backup, if your disk is almost full... follow internal disk capacity. If you have plenty of free spaces... another way to check is to create "Backup" folder and copy your specific folders/files over. When done, you can check total size on the Backup folder. If under 2TB, Flash Drive will do. If up to 4TB, External SSD will do. If over 6TB, External HDD will do.</p>
-<p>Whenever you are ready... open file manager and open another file manager. Copy your stuff over to backup disk. It may be a while if you have large files. After done, double check to make sure that backup folders/files are there and open them with no error?</p>
+<p>Whenever you are ready... open file manager and open another file manager. Copy your stuff to backup disk. It may be a while if you have large files. After done, double check to make sure that backup folders/files are there and open them with no error?</p>
 <p>Done and ready to move on? Unplug Backup USB or USB-C.</p>
 
 ## Flash ISO
@@ -223,20 +223,10 @@ Add to the bottom
 `sudo pacman -Syu`
 
 ### Add Packages
-<p>Choose Full, No Gaming, No Office or No Gaming and Office.</p>
-
-#### Full
-`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp gwenview isoimagewriter kalm libreoffice-fresh okular paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
-#### No Gaming
-`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp gwenview isoimagewriter kalm libreoffice-fresh okular paru strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
-#### No Office
-`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp gwenview isoimagewriter kalm okular paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
-
-#### No Gaming and Office
-`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp gwenview isoimagewriter kalm okular paru strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
+`sudo pacman -S clamav clamav-unofficial-sigs clamtk discord firewalld flameshot gimp gwenview imagemagick inkscape isoimagewriter kalm libreoffice-fresh okular onionshare paru python-pyqt6 qalculate-qt steam strawberry gst-libav timeshift torbrowser-launcher vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi zen-browser-bin`
 
 ### Add AUR Packages
-`paru -S livecaptions proton-mail-bin`
+`paru -S fresh-editor-bin livecaptions mullvad-browser-bin proton-mail-bin`
 
 ## Security
 
