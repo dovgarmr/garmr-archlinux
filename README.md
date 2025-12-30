@@ -20,8 +20,8 @@
 + Generally secure
 + Customisable
 <br><br>
-## Garmr Arch Linux!<br>
-Garmr Arch Linux with the help from a skilled Deaf man with long viking beard, Antero Wolf-Walker. Each hand flat "O" handshape, both indexes and pinkies extended that looks like wolf heads facing down and move them as if they were feet in the process of walking. You just learned his sign name, WOOF!
+## Garmr Arch Linux<br>
+Garmr Arch Linux with the help from a skilled Deaf man with long viking beard, Zathe Antero Wolf-Walker aka Dov Garmr. Each hand flat "O" handshape, both indexes and pinkies extended that looks like wolf heads facing down and move them as if they were feet in the process of walking. You just learned my sign name, WOOF!
 <br>
 ![AWW in the Valleys](https://github.com/user-attachments/assets/0cbe1225-fd3e-4d86-850b-d1f48f8b1588)
 <br><br>
@@ -31,7 +31,7 @@ Hearing are welcome. Just don't speak with your mouth. 😜
 <br><br><br>
 ### Desktop Environment:
 [KDE Plasma](https://kde.org/plasma-desktop/)<br><br>
-### Software Example:
+### Software List:
 [ClamAV](https://www.clamav.net), [Discord](https://discord.com), [Firewalld](https://firewalld.org), [Flameshot](https://flameshot.org), [Fresh](https://sinelaw.github.io/fresh), [GIMP](https://www.gimp.org), [Inkscape](https://inkscape.org), [ISO Image Writer](https://apps.kde.org/isoimagewriter), [Kalm](https://apps.kde.org/kalm), [Mullvad Browser](https://mullvad.net/browser), [LibreOffice](https://www.libreoffice.org/discover/screenshots), [Live Captions](https://github.com/abb128/LiveCaptions), [OnionShare](https://onionshare.org), [OpenMoji](https://openmoji.org), [Proton Mail](https://proton.me/mail), [Qalculate](https://qalculate.github.io/), [*Steam](https://store.steampowered.com/about), [Strawberry](https://www.strawberrymusicplayer.org), [Timeshift](https://github.com/linuxmint/timeshift), [Tor Browser](https://www.torproject.org), [VLC](https://www.videolan.org/vlc), [Yazi](https://github.com/sxyazi/yazi), [Zen Browser](https://zen-browser.app)
 <br><br>
 *Some games do not support on Linux. Moreover, if you only have IGPU (Integrated Graphics Processing Unit) such as [APU](https://en.wikipedia.org/wiki/AMD_APU) or [IGT](https://en.wikipedia.org/wiki/Intel_Graphics_Technology), check [ProtonDB](https://www.protondb.com) for Game on Linux compability including "Steam Deck" which is based on APU (in theory should work on IGT too) for your laptop, mini PC or PC tower.
@@ -70,12 +70,11 @@ Hearing are welcome. Just don't speak with your mouth. 😜
 + external backup and format (coming soon)
 
 ## Check List
-What needs are:
 + One USB-C or USB Flash Drive, at least 2GB for flashing iso.
 + One External HDD (Hard Disk Drive), External SSD (Solid-State Drive) or Flash Drive for backup. These suggestions have longer life compare to Internal HDD or SSD.
 
 ## Priceless Warning - A Friendly Reminder
-<p>If you haven't backed up your documents, downloads, photos, videos. Perhaps fonts, plugins and wallpapers. Browser's bookmark export. Anything else not mentioned?</p>
+<p>If you have not backed up your documents, downloads, photos, videos. Perhaps fonts, plugins and wallpapers. Browser's bookmark export. Anything else not mentioned?</p>
 <p>Use external HDD, SSD or another Flash Drive... make sure you have enough space to store all of that. Usually default format is fat32 which is fine for now.</p>
 <p>As a rule of thumb for backup, if your disk is almost full... follow internal disk capacity. If you have plenty of free spaces... another way to check is to create "Backup" folder and copy your specific folders/files over. When done, you can check total size on the Backup folder. If under 2TB, Flash Drive will do. If up to 4TB, External SSD will do. If over 6TB, External HDD will do.</p>
 <p>Whenever you are ready... open file manager and open another file manager. Copy your stuff to backup disk. It may be a while if you have large files. After done, double check to make sure that backup folders/files are there and open them with no error?</p>
