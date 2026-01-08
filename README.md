@@ -32,7 +32,7 @@ Hearing are welcome. Just don't speak with your mouth. 😜
 ### Desktop Environment:
 [KDE Plasma](https://kde.org/plasma-desktop/)<br><br>
 ### Software List:
-[ClamAV](https://www.clamav.net), [Discord](https://discord.com), [Firewalld](https://firewalld.org), [Flameshot](https://flameshot.org), [Fresh](https://sinelaw.github.io/fresh), [GIMP](https://www.gimp.org), [Inkscape](https://inkscape.org), [ISO Image Writer](https://apps.kde.org/isoimagewriter), [Kalm](https://apps.kde.org/kalm), [Mullvad Browser](https://mullvad.net/browser), [LibreOffice](https://www.libreoffice.org/discover/screenshots), [Live Captions](https://github.com/abb128/LiveCaptions), [OnionShare](https://onionshare.org), [OpenMoji](https://openmoji.org), [Proton Mail](https://proton.me/mail), [Qalculate](https://qalculate.github.io/), [*Steam](https://store.steampowered.com/about), [Strawberry](https://www.strawberrymusicplayer.org), [Timeshift](https://github.com/linuxmint/timeshift), [Tor Browser](https://www.torproject.org), [VLC](https://www.videolan.org/vlc), [Yazi](https://github.com/sxyazi/yazi), [Zen Browser](https://zen-browser.app)
+[ClamAV](https://www.clamav.net), [Discord](https://discord.com), [Firewalld](https://firewalld.org), [Flameshot](https://flameshot.org), [Fresh](https://sinelaw.github.io/fresh), [GIMP](https://www.gimp.org), [Inkscape](https://inkscape.org), [ISO Image Writer](https://apps.kde.org/isoimagewriter), [Kalm](https://apps.kde.org/kalm), [Mullvad Browser](https://mullvad.net/browser), [LibreOffice](https://www.libreoffice.org/discover/screenshots), [OnionShare](https://onionshare.org), [OpenMoji](https://openmoji.org), [Proton Mail](https://proton.me/mail), [Qalculate](https://qalculate.github.io/), [*Steam](https://store.steampowered.com/about), [Strawberry](https://www.strawberrymusicplayer.org), [Timeshift](https://github.com/linuxmint/timeshift), [Tor Browser](https://www.torproject.org), [VLC](https://www.videolan.org/vlc), [Yazi](https://github.com/sxyazi/yazi), [Zen Browser](https://zen-browser.app)
 <br><br>
 *Some games do not support on Linux. Moreover, if you only have IGPU (Integrated Graphics Processing Unit) such as [APU](https://en.wikipedia.org/wiki/AMD_APU) or [IGT](https://en.wikipedia.org/wiki/Intel_Graphics_Technology), check [ProtonDB](https://www.protondb.com) for Game on Linux compability including "Steam Deck" which is based on APU (in theory should work on IGT too) for your laptop, mini PC or PC tower.
 <br><br>
@@ -225,7 +225,7 @@ Add to the bottom
 `sudo pacman -S clamav clamav-unofficial-sigs clamtk discord firewalld flameshot gimp gwenview imagemagick inkscape isoimagewriter kalm libreoffice-fresh okular onionshare paru python-pyqt6 qalculate-qt steam strawberry gst-libav timeshift torbrowser-launcher vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi zen-browser-bin`
 
 ### Add AUR Packages
-`paru -S fresh-editor-bin livecaptions mullvad-browser-bin otf-openmoji proton-mail-bin`
+`paru -S fresh-editor-bin otf-openmoji proton-mail-bin`
 
 ## Security
 
@@ -301,7 +301,7 @@ Press CTRL+X, Y, ENTER
 
 `sudo systemctl start clamav-freshclam.service`
 
-`sudo systecmtl enable clamav-freshclam.service`
+`sudo systemctl enable clamav-freshclam.service`
 
 `sudo systemctl start clamav-daemon.service`
 
