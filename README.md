@@ -222,7 +222,7 @@ Add to the bottom
 `sudo pacman -Syu`
 
 ### Add Packages
-`sudo pacman -S clamav clamav-unofficial-sigs clamtk discord firewalld flameshot gimp gwenview imagemagick inkscape isoimagewriter kalm libreoffice-fresh okular onionshare paru python-pyqt6 qalculate-qt steam strawberry gst-libav timeshift torbrowser-launcher vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi zen-browser-bin`
+`sudo pacman -S clamav clamav-unofficial-sigs clamtk debugedit discord fakeroot firewalld flameshot gimp gwenview imagemagick inkscape isoimagewriter kalm libreoffice-fresh okular onionshare paru python-pyqt6 qalculate-qt steam strawberry gst-libav timeshift torbrowser-launcher vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi zen-browser-bin`
 
 ### Add AUR Packages
 `paru -S fresh-editor-bin otf-openmoji proton-mail-bin`
