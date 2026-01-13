@@ -270,7 +270,7 @@ done
 
 ```
 # clamonacc systemd service file primarily the work of ChadDevOps & Aaron Brighton
-# See: https://medium.com/@aaronbrighton/installation-configuration-of-clamav-antivirus-on-ubuntu-18-04-a6416bab3b41#a340
+# See: https://medium.com/@aaronbrighton/installation-configuration-of-clamav-antivirus-on-ubuntu-18-04-a6416>
 
 [Unit]
 Description=ClamAV On-Access Scanner
@@ -283,7 +283,7 @@ Type=simple
 User=root
 ExecStartPre=/bin/bash -c "while [ ! -S /run/clamav/clamd.ctl ]; do sleep 1; done"
 ExecStart=
-ExecStart=/usr/sbin/clamonacc -F --fdpass --log=/var/log/clamav/clamonacc.log
+ExecStart=/usr/sbin/clamonacc -F --fdpass --log=/var/log/clamav/clamonacc.log --move=/root/quarantine
 ExecStop=/bin/kill -SIGKILL $MAINPID
 
 [Install]
