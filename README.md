@@ -34,7 +34,7 @@ Hearing are welcome. Just don't speak with your mouth. 😜
 ### Software List:
 [ClamAV](https://www.clamav.net), [Discord](https://discord.com), [Firewalld](https://firewalld.org), [Flameshot](https://flameshot.org), [Fresh](https://sinelaw.github.io/fresh), [GIMP](https://www.gimp.org), [Inkscape](https://inkscape.org), [ISO Image Writer](https://apps.kde.org/isoimagewriter), [Kalm](https://apps.kde.org/kalm), [LibreOffice](https://www.libreoffice.org/discover/screenshots), [Octopi](https://tintaescura.com/projects/octopi), [OnionShare](https://onionshare.org), [OpenMoji](https://openmoji.org), [Proton Mail](https://proton.me/mail), [Qalculate](https://qalculate.github.io/), [*Steam](https://store.steampowered.com/about), [Strawberry](https://www.strawberrymusicplayer.org), [Timeshift](https://github.com/linuxmint/timeshift), [Tor Browser](https://www.torproject.org), [VLC](https://www.videolan.org/vlc), [Yazi](https://github.com/sxyazi/yazi), [Zen Browser](https://zen-browser.app)
 <br><br>
-*Some games do not support on Linux. Moreover, if you only have IGPU (Integrated Graphics Processing Unit) such as [APU](https://en.wikipedia.org/wiki/AMD_APU) or [IGT](https://en.wikipedia.org/wiki/Intel_Graphics_Technology), check [ProtonDB](https://www.protondb.com) for Game on Linux compability including "Steam Deck" which is based on APU (in theory should work on IGT too) for your laptop, mini PC or PC tower.
+*Some games do not support on Linux.
 <br><br>
 ## Avoid At All Costs
 + ### $\textsf{\color{#ea4335}{AppImage - Storage Usage, Update Challenges, Compatibility Issues}}$
@@ -48,7 +48,7 @@ Hearing are welcome. Just don't speak with your mouth. 😜
 + CPU: 6/12 (8/16)
 + RAM: 32GB
 + GPU: 16GB (24GB)
-+ SSD: 2TB (2x 4TB)
++ SSD: 2TB (4TB)
 
 ## Linux's Graphics Driver List
 + AMD / ATI (open-source)
@@ -82,43 +82,28 @@ Hearing are welcome. Just don't speak with your mouth. 😜
 
 ## Flash ISO
 
-### Arch-Based
-`sudo pacman -S rpi-imager`
-
-### Debian/Ubuntu-Based
-[Raspberry Pi Imager](https://www.raspberrypi.com/software)
-
-### Raspberry Pi OS
-`sudo apt install rpi-imager`
-
 ### Linux Flavours
-<p>Check your OS's repo packages "rpi-imager". If no luck, alternatives are:<p>
-<p>GNOME: gnome-multi-writer or impression</p>
-<p>KDE: isoimagewriter</p>
+<p>Check your repo packages. KDE: isoimagewriter, GNOME: gnome-multi-writer or impression.</p>
 
-### Mac
-[Raspberry Pi Imager](https://www.raspberrypi.com/software)
-
-### Windows
-[Raspberry Pi Imager](https://www.raspberrypi.com/software)
+### Mac & Windows
+[balenaEtcher](https://etcher.balena.io)
 <br><br>
+
 After installing, reboot your computer for the application to recognise usb.
 <br><br>
+
 ### Download Arch Linux ISO
 <p>Scroll down to your country and pick whichever you like. Then select archlinux-current year and month-published day-x86_64.iso.</p>
 
 [Download Arch Linux](https://archlinux.org/download)
 <br><br>
-<p>Insert USB or USB-C Flash Drive for ISO. Not your Backup disk!</p>
-<p>Open Raspberry Pi Imager (or other app you prefer).</p>
-<p>Raspberry Pi Device: NO FILTERING.</p>
-<p>Operating System: ARCHLINUX-current year and month-published day-X86_64.ISO.</p>
-<p>Storage: select your USB or USB-C.</p>
-<p>Then hit NEXT. Yes if correct usb disk or No if wrong usb disk and try again.</p>
-<p>Your password as consent to allow writing iso to usb.</p>
+<p>Insert USB or USB-C Flash Drive for ISO. Not your Backup disk.</p>
+<p>Open balenaEtcher (or isoimagewriter/gnome-multi-writer/impression).</p>
+<p>Select image: find arch-2026.01.01-x86_64.iso you just downloaded.</p>
+<p>Select drive: find your USB.</p>
+<p>Flash!</p>
+<p>If prompt for password as consent to allow writing iso to usb.</p>
 <p>Wait, be patient... when it's done, close the app.</p>
-
-<img width="812" height="617" alt="rpi-imager" src="https://github.com/user-attachments/assets/a156a578-8faa-4692-82c3-fef319f2bc10" /> <img width="812" height="617" alt="rpi-imager-os" src="https://github.com/user-attachments/assets/5d04e690-1fb9-4201-b18b-48a80f990dba" />
 
 ## BIOS Settings
 <p>Reboot and press F2 or DEL during the inital boot process. If you're unsure or pressing F2 or DEL didn't do anything, hold power button and power on again. Look for a message on the screen during startup that indicates which key to press. For an example: HP use F10 and some Dell use F12</p>
@@ -172,7 +157,7 @@ After installing, reboot your computer for the application to recognise usb.
 <img width="1280" height="720" alt="Screenshot_20251006_162941" src="https://github.com/user-attachments/assets/cab027d8-3763-402c-95f9-93ae10a0db7c" />
 <p>Profile, press enter. Type, press enter. Desktop, press enter. Select KDE Plasma, press enter.</p>
 <img width="1280" height="720" alt="Screenshot_20251006_163038" src="https://github.com/user-attachments/assets/65628875-4967-44fa-a333-c546d3287413" />
-<p>Graphics driver, press enter. Select the correct driver for your PC, perss enter.</p>
+<p>Graphics driver, press enter. Select the correct driver for your PC, press enter.</p>
 <img width="1280" height="720" alt="Screenshot_20251006_163051" src="https://github.com/user-attachments/assets/72046699-f519-43f2-99f1-298b6f2ab551" />
 <p>Applications, press enter. Bluetooth, yes, press enter. Audio, pipewire, press enter.</p>
 <p>Kernels, press enter. Unselect linux and select linux-zen, press enter</p>
