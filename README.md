@@ -83,7 +83,8 @@ Hearing are welcome. Just don't speak with your mouth. 😜
 ## Flash ISO
 
 ### Linux Flavours
-<p>Check your repo packages. KDE: isoimagewriter, GNOME: gnome-multi-writer or impression.</p>
+<p>GNOME: gnome-multi-writer or impression.</p>
+<p>KDE: isoimagewriter.</p>
 
 ### Mac & Windows
 [balenaEtcher](https://etcher.balena.io)
