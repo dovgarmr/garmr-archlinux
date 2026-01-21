@@ -70,7 +70,7 @@ Hearing are welcome. Just don't speak with your mouth. 😜
 + external backup and format (coming soon)
 
 ## Check List
-+ One USB-C or USB Flash Drive, at least 2GB for flashing iso.
++ One USB-C or USB Thumb Drive, at least 2GB for flashing iso.
 + One External HDD (Hard Disk Drive), External SSD (Solid-State Drive) or Flash Drive for backup. These suggestions have longer life compare to Internal HDD or SSD.
 
 ## Priceless Warning - A Friendly Reminder
@@ -165,7 +165,7 @@ After installing, reboot your computer for the application to recognise usb.
 <img width="1280" height="720" alt="Screenshot_20251006_163358" src="https://github.com/user-attachments/assets/c1e4ec65-c267-4110-b888-19b59854b142" />
 <p>Network configuration, press enter. Use Networkmanager (necessary to configure internet graphically in GNOME and KDE Plasma), press enter.</p>
 <img width="1280" height="720" alt="Screenshot_20251006_163515" src="https://github.com/user-attachments/assets/4f71dc22-4fa3-4339-8de5-884cfaa2a2d1" />
-<p>Timezone, press enter. Select your timezone, press enter.</p>
+<p>Timezone, press enter. Select your timezone, press enter.</p>gnome-multi-writer
 <img width="1280" height="720" alt="Screenshot_20251006_163634" src="https://github.com/user-attachments/assets/5d327cdc-9f8b-403a-9580-bb9da5997e50" />
 <p> Install, press enter. Yes, press enter.</p>
 <img width="1280" height="720" alt="Screenshot_20251006_163702" src="https://github.com/user-attachments/assets/54c8fd9f-a475-457e-823a-c78a467bebc2" />
