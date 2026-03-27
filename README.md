@@ -330,15 +330,16 @@ The output must include: stdin: Win.Test.EICAR_HDB-1 FOUND
 <p>Automatic (Only addresses)</p>
 <p>DNS Servers:</p>
 
-`2620:fe:fe,2620:fe::9`
+`2620:fe::fe,2620:fe::9`
 
 <img width="1515" height="812" alt="Screenshot_20251010_174943" src="https://github.com/user-attachments/assets/6cc6f4cf-2c62-41fe-ab4d-cbc56702f525" />
 
 <p>Click Apply. Close the app. Reboot the PC.</p>
 
 <p>Open Zen Browser. If you have Firefox account, you can sync. Or import your bookmark from Backup disk.</p>
-<p>Click on ... to Settings, Privacy & Security. Scroll down to DNS over HTTPS. Choose Off</p>
-<img width="1261" height="1354" alt="Screenshot_20251008_143726" src="https://github.com/user-attachments/assets/e8738ff6-0cf7-44d3-902f-2928dbd00404" />
+<p>Click on ... to Settings, Privacy & Security. Scroll down to DNS over HTTPS. Choose Custom, replace https://mozilla.cloudflare-dns.com/dns-query to https://dns.quad9.net/dns-query</p>
+<img width="1505" height="750" alt="Screenshot 2026-03-27 at 13-36-53 Settings" src="https://github.com/user-attachments/assets/1d887f04-70e8-4560-b404-9ea34e925109" />
+
 
 Confirm you're using Quad9 by visiting [on.quad9.net](https://on.quad9.net).
 
